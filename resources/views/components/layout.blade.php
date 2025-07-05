@@ -8,10 +8,11 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-    <x-navbar></x-navbar>
     <main>
+        <x-navbar></x-navbar>
         {{$slot}}
     </main>
+    <x-footer></x-footer>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </body>

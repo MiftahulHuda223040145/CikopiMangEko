@@ -1,4 +1,4 @@
-<nav class="bg-transparent absolute">
+<nav class="nav font-lato bg-transparent w-screen top-0 left-0 z-20 fixed transition-colors duration-500">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="{{ asset('storage/image/cikopilogo.png')}}" class="w-14" alt="Cikopi Logo" />
@@ -31,3 +31,15 @@
         </div>
     </div>
 </nav>
+
+<script>
+    const nav = document.querySelector('.nav');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            nav.className = "nav font-lato bg-[#966727] w-screen top-0 left-0 z-20 fixed transition-colors duration-500";
+        }else {
+            nav.className = "nav font-lato bg-transparent w-screen top-0 left-0 z-20 fixed transition-colors duration-500";
+        }
+    });
+</script>
