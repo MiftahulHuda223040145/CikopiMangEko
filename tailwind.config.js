@@ -6,7 +6,11 @@ export default {
     ],
     theme: {
         extend: {
-  
+            fontFamily: {
+                lato: ['Lato', 'sans-serif'],
+                ppbold: ['PPWoodland-Bold', 'sans-serif'],
+                ppultralight: ['PPWoodland-Ultralight', 'sans-serif'],
+            },
         },
     },
     plugins: [],
