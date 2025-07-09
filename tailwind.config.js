@@ -8,8 +8,8 @@ export default {
         extend: {
             fontFamily: {
                 lato: ['Lato', 'sans-serif'],
-                ppbold: ['PPWoodland-Bold', 'sans-serif'],
-                ppultralight: ['PPWoodland-Ultralight', 'sans-serif'],
+                ppbold: ['ppbold', 'sans-serif'],
+                // ppultralight: ['PPWoodland-Ultralight', 'sans-serif'],
             },
         },
     },

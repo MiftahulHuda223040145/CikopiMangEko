@@ -10,25 +10,40 @@
     </div>
 </section>
 
-<div class="container max-w-screen px-25 my-15 grid grid-cols-2 place-items-center">
-    <div class="max-w-full h-[350px] bg-center bg-no-repeat rounded-lg p-6" style="background-image: url('{{ asset('storage/image/foto-acehgayo.png') }}')">
-        <div class="rounded-4xl place-content-end h-full pr-25">
-            <a href="#" class="inline-flex justify-end items-center py-3 px-5 text-base font-medium text-center text-[#FFFEF4] rounded-lg bg-[#39312F] hover:bg-[#1c1817]">
-                Lebih Lanjut
-                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                </svg>
-            </a>
+{{-- Card --}}
+<div class="container max-w-screen px-25 mt-15 mb-35 grid grid-cols-2 place-items-center">
+    <div class="max-w-sm bg-white rounded-3xl shadow-[0px_8px_15px_2px_rgba(0,0,0,0.25)] px-7">
+        <img class="py-5" src="{{ asset('storage/image/instagram2.png') }}" alt="" />
+        <a href="#">
+            <img class="rounded-3xl w-full " src="{{ asset('storage/image/ecommerce1.png') }}" alt="" />
+        </a>
+        <div class="py-5">
+            <p class="my-5 font-normal">Info lebih lanjut mengenai produk kunjungi sosial media instagram @cikopimangeko</p>
+            <div class="space-y-4 mb-5 my-10 sm:flex-row sm:justify-end sm:space-y-0">
+                <a href="#" class="inline-flex justify-end items-center py-3 px-5 text-base font-medium text-center text-[#FFFEF4] rounded-lg bg-[#39312F] hover:bg-[#1c1817]">
+                    Lebih Lanjut
+                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </div>
         </div>
     </div>
-    <div class="max-w-full h-[350px] bg-center bg-no-repeat rounded-lg p-6" style="background-image: url('{{ asset('storage/image/foto-acehgayo.png') }}')">
-        <div class="rounded-4xl place-content-end h-full pr-25">
-            <a href="#" class="inline-flex justify-end items-center py-3 px-5 text-base font-medium text-center text-[#FFFEF4] rounded-lg bg-[#39312F] hover:bg-[#1c1817]">
-                Lebih Lanjut
-                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                </svg>
-            </a>
+    <div class="max-w-sm bg-white rounded-3xl shadow-[0px_8px_15px_4px_rgba(0,0,0,0.25)] px-7">
+        <img class="py-5" src="{{ asset('storage/image/tokopedia2.png') }}" alt="" />
+        <a href="#">
+            <img class="rounded-3xl w-full " src="{{ asset('storage/image/ecommerce2.png') }}" alt="" />
+        </a>
+        <div class="py-5">
+            <p class="my-5 font-normal text-justify w-full">Temukan produk yang dibutuhkan di Tokopedia @cikopimangeko</p>
+            <div class="space-y-4 mb-5 my-10 sm:flex-row sm:justify-end sm:space-y-0">
+                <a href="#" class="inline-flex justify-end items-center py-3 px-5 text-base font-medium text-center text-[#FFFEF4] rounded-lg bg-[#39312F] hover:bg-[#1c1817]">
+                    Lebih Lanjut
+                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </div>
         </div>
     </div>
 </div>

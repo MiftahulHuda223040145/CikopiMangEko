@@ -17,24 +17,24 @@
     </div>
     <div class="py-3 mx-auto justify-center max-w-screen gap-4 grid grid-cols-4 mb-25">
         <div class="">
-            <img class="rounded-full w-2xs" src="{{ asset('storage/image/foto-acehgayo.png') }}" alt="">
+            <img class="rounded-full w-2xs" src="{{ asset('storage/image/muchtar-koswara.png') }}" alt="">
             <h2 class="font-bold text-xl pt-10">Muchtar Koswara</h2>
             <p class="w-95">Owner Cikopi Mang Eko</p>       
         </div>
         <div class="">
-            <img class="rounded-full w-2xs" src="{{ asset('storage/image/foto-acehgayo.png') }}" alt="">
-            <h2 class="font-bold text-xl pt-10">Muchtar Koswara</h2>
-            <p class="w-95">Owner Cikopi Mang Eko</p>       
+            <img class="rounded-full w-2xs" src="{{ asset('storage/image/dodi-setiadi.png') }}" alt="">
+            <h2 class="font-bold text-xl pt-10">Dodi Setiadi</h2>
+            <p class="w-95">Store Manager</p>       
         </div>
         <div class="">
-            <img class="rounded-full w-2xs" src="{{ asset('storage/image/foto-acehgayo.png') }}" alt="">
-            <h2 class="font-bold text-xl pt-10">Muchtar Koswara</h2>
-            <p class="w-95">Owner Cikopi Mang Eko</p>       
+            <img class="rounded-full w-2xs" src="{{ asset('storage/image/novi-indriawan.png') }}" alt="">
+            <h2 class="font-bold text-xl pt-10">Novi Indriawan</h2>
+            <p class="w-95">Production Manager</p>       
         </div>
         <div class="">
-            <img class="rounded-full w-2xs" src="{{ asset('storage/image/foto-acehgayo.png') }}" alt="">
-            <h2 class="font-bold text-xl pt-10">Muchtar Koswara</h2>
-            <p class="w-95">Owner Cikopi Mang Eko</p>       
+            <img class="rounded-full w-2xs" src="{{ asset('storage/image/bunga-utami.png') }}" alt="">
+            <h2 class="font-bold text-xl pt-10">Bunga Utami</h2>
+            <p class="w-95">Sales and Marketing</p>       
         </div>
     </div>
 </div>

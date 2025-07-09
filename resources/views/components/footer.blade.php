@@ -8,12 +8,13 @@
             </a>
         </div>
     </div>
-    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 ">
+        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 ">
             <div>
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Store</h2>
                 <ul class="text-white font-medium">
-                    <li class="mb-4">
+                    <li class="mb-4 flex gap-4">
+                        <img class="h-[32px] pt-1" src="{{ asset('storage/image/location.png')}}" alt="">
                         <a href="https://flowbite.com/" class="hover:underline">Jl. Golf  Dalam No.2 Blok G, Cisaranten Bina Harapan, Kec Arcamanik, Kota Bandung, Jawa Barat 40294.</a>
                     </li>
                 </ul>
@@ -21,7 +22,8 @@
             <div>
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
                 <ul class="text-white font-medium">
-                    <li class="mb-4">
+                    <li class="mb-4 flex gap-4">
+                        <img class="h-[32px] pt-1" src="{{ asset('storage/image/whatsapp.png')}}" alt="">
                         <a href="https://github.com/themesberg/flowbite" class="hover:underline ">+62 813 - 5050 - 8811</a>
                     </li>
                 </ul>
@@ -29,7 +31,8 @@
             <div>
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Social Media</h2>
                 <ul class="text-white font-medium">
-                    <li class="mb-4">
+                    <li class="mb-4 flex gap-4">
+                        <img class="h-[32px] pt-1" src="{{ asset('storage/image/instagram1.png')}}" alt="">
                         <a href="#" class="hover:underline">@cikopimangeko</a>
                     </li>
                 </ul>
@@ -37,7 +40,8 @@
             <div>
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Operational Hours</h2>
                 <ul class="text-white font-medium">
-                    <li class="mb-4">
+                    <li class="mb-4 flex gap-4">
+                        <img class="h-[32px] pt-1" src="{{ asset('storage/image/time.png')}}" alt="">
                         <a href="#" class="hover:underline">Senin - Minggu 10.00 - 18.00 WIB</a>
                     </li>
                 </ul>
@@ -45,14 +49,15 @@
             <div>
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Online Shop</h2>
                 <ul class="text-white font-medium">
-                    <li class="mb-4">
+                    <li class="mb-4 flex gap-4">
+                        <img class="h-[32px] pt-1" src="{{ asset('storage/image/tokopedia1.png')}}" alt="">
                         <a href="#" class="hover:underline">cikopimangeko</a>
                     </li>
                 </ul>
             </div> 
         </div>
     </div>
-    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    {{-- <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" /> --}}
     <div class="sm:flex sm:items-center sm:justify-between">
         <span class="text-sm text-white sm:text-center">©2025<a href="https://flowbite.com/" class="hover:underline">cikopimangeko</a>
         </span>
