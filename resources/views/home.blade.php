@@ -19,10 +19,10 @@
 </section>
 
 {{-- About Us --}}
-<div class="font-lato px-25 mx-auto max-w-screen-xl place-items-start text-left py-15 fade-in-up">
+<div class="font-lato lg:px-25 max-md:px-10 mx-auto max-w-screen-xl place-items-start text-left py-15 fade-in-up">
     <div class="">
         <h1 class="text-3xl font-bold text-[#39312F]">ABOUT US</h1>
-        <p class="w-140 my-5 text-justify">Cikopi mang eko merupakan tempat penyedia biji kopi, jasa roasting, dan distributor biji kopi. Cikopi mang eko ini berdiri pada tahun 2016 oleh Muchtar koswara di ciwastra dan pindah pada tahun 2018 ke kota Bandung tepatnya di Jl. Golf Dalam No.2 Blok G, Cisaranten Bina Harapan, Kec Arcamanik, Kota Bandung, Jawa Barat 40294.</p>
+        <p class="lg:w-140 md:w-140 sm:w-auto my-5 text-justify">Cikopi mang eko merupakan tempat penyedia biji kopi, jasa roasting, dan distributor biji kopi. Cikopi mang eko ini berdiri pada tahun 2016 oleh Muchtar koswara di ciwastra dan pindah pada tahun 2018 ke kota Bandung tepatnya di Jl. Golf Dalam No.2 Blok G, Cisaranten Bina Harapan, Kec Arcamanik, Kota Bandung, Jawa Barat 40294.</p>
     </div>
     <div class="space-y-4 sm:flex-row sm:justify-end sm:space-y-0">
         <a href="#" class="inline-flex justify-end items-center py-3 px-5 text-base font-medium text-center text-[#FFFEF4] rounded-lg bg-[#39312F] hover:bg-[#1c1817]">
@@ -35,13 +35,13 @@
 </div>
 
 {{-- Product --}}
-<div class="font-lato gap-40 justify-end flex place-items-start mx-auto max-w-screen-xl text-left py-15 my-10 fade-in-up">
+<div class="font-lato lg:gap-40 md:gap-20 max-sm:gap-20 justify-end place-items-center grid lg:grid-cols-2 sm:grid-cols-1 mx-auto max-w-screen-xl text-left py-15 my-10 lg:px-25 max-md:px-10 fade-in-up">
     <div class="">
         <img class="w-90 rounded-3xl" src="{{ asset('storage/image/foto-acehgayo.png') }}" alt="">
     </div>
     <div class="">
         <h1 class="text-3xl font-bold text-[#39312F]">PRODUCT</h1>
-        <p class="w-150 my-5">Cikopi mang eko menjual green bean, roasted bean, jasa roasting dan menggiling, alat-alat kopi, dan kopi susu yang siap minum.</p>
+        <p class="lg:w-140 md:w-auto my-5">Cikopi mang eko menjual green bean, roasted bean, jasa roasting dan menggiling, alat-alat kopi, dan kopi susu yang siap minum.</p>
         <div class="space-y-4 sm:flex-row sm:justify-end sm:space-y-0">
             <a href="#" class="inline-flex justify-end items-center py-3 px-5 text-base font-medium text-center text-[#FFFEF4] rounded-lg bg-[#39312F] hover:bg-[#1c1817]">
                 Lebih Lanjut
@@ -54,14 +54,14 @@
 </div>
 
 {{-- Ecommerce --}}
-<div class="container max-w-screen px-25 fade-in-up">
+<div class="container max-w-screen lg:px-25 max-md:px-10 fade-in-up">
     <div class="font-lato mx-auto max-w-screen-xl place-items-start text-left py-3">
         <div class="">
             <h1 class="text-3xl font-bold text-[#39312F]">ECOMMERCE</h1>
-            <p class="w-140 my-5">Buat pesanan anda sekarang melalui Instagram dan Tokopedia untuk Luar kota dan dalam kota.</p>
+            <p class="lg:w-140 md:w-auto my-5">Buat pesanan anda sekarang melalui Instagram dan Tokopedia untuk Luar kota dan dalam kota.</p>
         </div>
     </div>
-    <div class="max-w-full px-25 mt-15 mb-35 grid grid-cols-2 place-items-center gap-30">
+    <div class="max-w-full mt-15 mb-35 grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 place-items-center gap-30">
     <div class="max-w-sm bg-white rounded-3xl shadow-[0px_8px_15px_2px_rgba(0,0,0,0.25)] px-7">
         <img class="py-5" src="{{ asset('storage/image/instagram2.png') }}" alt="" />
         <a href="#">
@@ -100,20 +100,20 @@
 </div>
 
 {{-- News --}}
-<div class="container max-w-screen px-25 fade-in-up">
-    <div class="font-lato mx-auto max-w-screen-xl place-items-start text-left mt-15">
+<div class="container max-w-screen lg:px-25 max-md:px-10 fade-in-up">
+    <div class="font-lato mx-auto place-items-start text-left mt-15">
         <div class="">
             <h1 class="text-3xl font-bold text-[#39312F]">NEWS</h1>
-            <p class="w-140 my-5">Berbagai Berita tentang Cikopi Mang Eko.</p>
+            <p class="lg:w-140 md:w-140 sm:w-auto my-5">Berbagai Berita tentang Cikopi Mang Eko.</p>
         </div>
     </div>
-    <div class="font-lato gap-40 justify-center flex place-items-start mx-auto max-w-screen-xl text-left py-3 mb-25">
+    <div class="font-lato md:gap-20 max-sm:gap-10 justify-center grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 place-items-start mx-auto text-left py-3 mb-25">
         <div class="">
-            <img class="w-90 rounded-3xl" src="{{ asset('storage/image/foto-acehgayo.png') }}" alt="">
+            <img class="w-90 rounded-3xl" src="{{ asset('storage/image/cikopi-news1.png') }}" alt="">
         </div>
         <div class="">
             <h1 class="font-bold text-[#39312F]">Benefit mengkonsumsi kopi di pagi hari.</h1>
-            <p class="w-150 my-5">Minum kopi di pagi hari dapat memberikan berbagai manfaat, seperti meningkatkan energi, meningkatkan fokus dan konsentrasi serta membantu menurun kan berat badan. Selain itu dapat meningkatkan kesehatan jantung, risiko diabetes, dan menurunkan resiko penyakit Alzheimer dan Parkinson.</p>
+            <p class="lg:w-150 md:w-auto sm:w-auto my-5 text-justify">Minum kopi di pagi hari dapat memberikan berbagai manfaat, seperti meningkatkan energi, meningkatkan fokus dan konsentrasi serta membantu menurun kan berat badan. Selain itu dapat meningkatkan kesehatan jantung, risiko diabetes, dan menurunkan resiko penyakit Alzheimer dan Parkinson.</p>
             <div class="space-y-4 sm:flex-row sm:justify-end sm:space-y-0">
                 <a href="#" class="inline-flex justify-end items-center py-3 px-5 text-base font-medium text-center text-[#FFFEF4] rounded-lg bg-[#39312F] hover:bg-[#1c1817]">
                     Lebih Lanjut
@@ -125,35 +125,4 @@
         </div>
     </div>
 </div>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const faders = document.querySelectorAll('.fade-in-up');
-
-        const options = {
-            threshold: 0.1,
-        };
-
-        const appearOnScroll = new IntersectionObserver(function(entries) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('show');
-                }
-            });
-        }, options);
-
-        faders.forEach(fader => {
-            appearOnScroll.observe(fader);
-        });
-
-        // Reset animasi ketika scroll ke paling atas (0)
-        window.addEventListener('scroll', () => {
-            if (window.scrollY === 0) {
-                faders.forEach(fader => {
-                    fader.classList.remove('show');
-                });
-            }
-        });
-    });
-</script>
 </x-layout>

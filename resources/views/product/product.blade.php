@@ -3,15 +3,15 @@
 <section class="bg-center bg-no-repeat pb-10" style="background-image: url('{{ asset('storage/image/hero-image-product.png') }}')">
     <div class="px-4 mx-auto max-w-screen-xl place-items-start text-left pt-56 pb-30">
         <div class="pr-24 pt-40 px-25">
-            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Cikopi</h1>
-            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Mang Eko</h1>
+            <h1 class="mb-4 text-4xl font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Cikopi</h1>
+            <h1 class="mb-4 text-4xl font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Mang Eko</h1>
             <p class="w-80 mb-8 text-base font-normal text-white">Cikopi mang eko merupakan tempat penyedia biji  kopi, jasa roasting, dan  distributor biji kopi. </p>
         </div>
     </div>
 </section>
 
 {{-- Main Content --}}
-<div class="container max-w-screen px-25 my-15">
+<div class="container max-w-screen px-25 my-15 font-lato fade-in-up">
     <div class="font-lato gap-40 justify-center flex place-items-start mx-auto max-w-screen-xl text-left py-3">
         <div class="">
             <img class="w-90 rounded-3xl" src="{{ asset('storage/image/green-bean.png') }}" alt="">
@@ -26,7 +26,7 @@
         <p class="w-95">Rp. 50.000 - Rp. 90.000</p>       
     </div>
 </div>
-<div class="container max-w-screen px-25 my-15">
+<div class="container max-w-screen px-25 my-15 fade-in-up">
     <div class="font-lato gap-40 justify-center flex place-items-start mx-auto max-w-screen-xl text-left py-3">
         <div class="">
             <h1 class="text-3xl font-bold text-[#39312F]">Roasted Bean</h1>
@@ -41,7 +41,7 @@
         </div>
     </div>
 </div>
-<div class="container max-w-screen px-25 my-15">
+<div class="container max-w-screen px-25 my-15 fade-in-up">
     <div class="font-lato gap-40 justify-center flex place-items-start mx-auto max-w-screen-xl text-left py-3">
         <div class="">
             <img class="w-90 rounded-3xl" src="{{ asset('storage/image/roasting-service.png') }}" alt="">
@@ -56,7 +56,7 @@
         </div>
     </div>
 </div>
-<div class="container max-w-screen px-25 my-15">
+<div class="container max-w-screen px-25 my-15 fade-in-up">
     <div class="font-lato gap-40 justify-center flex place-items-start mx-auto max-w-screen-xl text-left py-3">
         <div class="">
             <h1 class="text-3xl font-bold text-[#39312F]">Coffee Making Equipment</h1>
@@ -73,7 +73,7 @@
         </div>
     </div>
 </div>
-<div class="container max-w-screen px-25 my-15">
+<div class="container max-w-screen px-25 my-15 fade-in-up">
     <div class="font-lato gap-40 justify-center flex place-items-start mx-auto max-w-screen-xl text-left py-3">
         <div class="">
             <img class="w-90 rounded-3xl" src="{{ asset('storage/image/foto-acehgayo.png') }}" alt="">

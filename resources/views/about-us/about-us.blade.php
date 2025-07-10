@@ -3,15 +3,15 @@
 <section class="bg-center bg-no-repeat pb-10" style="background-image: url('{{ asset('storage/image/hero-image-aboutus.png') }}')">
     <div class="px-4 mx-auto max-w-screen-xl place-items-start text-left pt-56">
         <div class="pr-24 pt-60 px-15">
-            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Cikopi</h1>
-            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Mang Eko</h1>
-            <p class="w-80 mb-8 text-base font-normal text-white">Cikopi mang eko merupakan tempat penyedia biji  kopi, jasa roasting, dan  distributor biji kopi. </p>
+            <h1 class="mb-4 text-4xl font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Cikopi</h1>
+            <h1 class="mb-4 text-4xl font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Mang Eko</h1>
+            <p class="w-80 mb-8 text-base font-lato text-white">Cikopi mang eko merupakan tempat penyedia biji  kopi, jasa roasting, dan  distributor biji kopi. </p>
         </div>
     </div>
 </section>
 
 {{-- About Our Team --}}
-<div class="container px-25 max-w-screen">
+<div class="container px-25 max-w-screen font-lato fade-in-up">
     <div class="font-lato mx-auto max-w-screen-xl place-items-start text-left mt-15 mb-3">
         <h1 class="text-3xl font-bold text-[#39312F]">About Our Team</h1>
     </div>
@@ -39,7 +39,7 @@
     </div>
 </div>
 
-<div class="container max-w-screen px-25">
+<div class="container max-w-screen px-25 font-lato fade-in-up">
     <div class="font-lato mx-auto max-w-screen-xl place-items-start text-left mt-15 mb-3">
         <h1 class="text-3xl font-bold text-[#39312F]">Legalities & Certificate</h1>
     </div>

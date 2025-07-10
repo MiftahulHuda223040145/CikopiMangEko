@@ -3,15 +3,15 @@
 <section class="bg-center bg-no-repeat pb-10" style="background-image: url('{{ asset('storage/image/hero-image-ecommerce.png') }}')">
     <div class="px-4 mx-auto max-w-screen-xl place-items-start text-left pt-56">
         <div class="pr-24 pt-60 px-15">
-            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Marketplace</h1>
-            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">& Order</h1>
-            <p class="w-100 mb-8 text-base font-normal text-white">Buat pesanan anda sekarang melalui Tokopedia dan Whatsapp untuk Luar kota dan dalam kota.</p>
+            <h1 class="mb-4 text-4xl font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Marketplace</h1>
+            <h1 class="mb-4 text-4xl font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">& Order</h1>
+            <p class="w-100 mb-8 text-base font-normal font-lato text-white">Buat pesanan anda sekarang melalui Tokopedia dan Whatsapp untuk Luar kota dan dalam kota.</p>
         </div>
     </div>
 </section>
 
 {{-- Card --}}
-<div class="container max-w-screen px-25 mt-15 mb-35 grid grid-cols-2 place-items-center">
+<div class="container max-w-screen font-lato px-25 mt-15 mb-35 grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 place-items-center fade-in-up">
     <div class="max-w-sm bg-white rounded-3xl shadow-[0px_8px_15px_2px_rgba(0,0,0,0.25)] px-7">
         <img class="py-5" src="{{ asset('storage/image/instagram2.png') }}" alt="" />
         <a href="#">

@@ -9,7 +9,6 @@ export default {
             fontFamily: {
                 lato: ['Lato', 'sans-serif'],
                 ppbold: ['ppbold', 'sans-serif'],
-                // ppultralight: ['PPWoodland-Ultralight', 'sans-serif'],
             },
         },
     },
