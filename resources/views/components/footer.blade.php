@@ -2,14 +2,14 @@
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-start">
         <div class="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" class="flex items-center">
+            <a href="https://flowbite.com/" class="flex items-center gap-2">
                 <img src="{{ asset('storage/image/cikopilogo.png')}}" class="w-14 me-3" alt="FlowBite Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Cikopi Mang Eko</span>
+                <span class="self-center text-2xl font-regular whitespace-nowrap dark:text-white">Cikopi Mang Eko</span>
             </a>
         </div>
     </div>
-    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 ">
-        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 ">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Store</h2>
                 <ul class="text-white font-medium">

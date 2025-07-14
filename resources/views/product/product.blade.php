@@ -76,7 +76,7 @@
 <div class="container max-w-screen px-25 my-15 fade-in-up">
     <div class="font-lato gap-40 justify-center flex place-items-start mx-auto max-w-screen-xl text-left py-3">
         <div class="">
-            <img class="w-90 rounded-3xl" src="{{ asset('storage/image/foto-acehgayo.png') }}" alt="">
+            <img class="w-90 rounded-3xl" src="{{ asset('storage/image/product-hampers.png') }}" alt="">
             <div class="py-3">
                 <h2 class="font-bold text-xl">Side Product</h2>
                 <p>Rp. 55.000 - 70.000/L</p>       

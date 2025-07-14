@@ -1,7 +1,7 @@
 <nav class="nav font-lato lg:bg-transparent md:bg-transparent w-screen top-0 left-0 z-20 fixed transition-colors max-[767px]:bg-[#966727] duration-500">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between lg:px-25 md:px-10 sm:px-10 mx-auto p-4">
-        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="{{ asset('storage/image/cikopilogo.png')}}" class="w-15" alt="Cikopi Logo" />
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between lg:px-25 md:px-10 sm:px-10 mx-auto py-4">
+        <a href="#" class="flex gap-2 items-center space-x-3 rtl:space-x-reverse">
+            <img src="{{ asset('storage/image/cikopilogo.png')}}" class="w-12" alt="Cikopi Logo" />
             <span class="self-center text-xl whitespace-nowrap dark:text-white">Cikopi Mang Eko</span>
         </a>
         <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden" aria-controls="navbar-default" aria-expanded="false">
