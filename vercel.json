@@ -3,7 +3,7 @@
     "builds": [
         {
             "src": "public/index.php",
-            "use": "@juicyfx/vercel-php@2.0.1",
+            "use": "vercel-php@1.0.0",
             "config": {
                 "php": "8.2"
             }
