@@ -5,7 +5,7 @@
             "src": "public/index.php",
             "use": "vercel-php@0.6.0",
             "config": {
-                "php": "8.3.10"
+                "php": "8.2"
             }
         }
     ],
