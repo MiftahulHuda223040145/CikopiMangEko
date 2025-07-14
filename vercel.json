@@ -1,16 +1,18 @@
 {
     "version": 2,
-    "framework": null,
-    "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.6.0" }
-    },
-    "routes": [{
-        "src": "/(.*)",
-        "dest": "/api/index.php"
-    }],
-    "env": {
-        "APP_ENV": "local",
-        "APP_DEBUG": "true",
-        "APP_URL": "https://cikopimangeko.com"
-    }
+    "builds": [
+        {
+            "src": "public/index.php",
+            "use": "vercel-php@0.6.0",
+            "config": {
+                "php": "8.3.10"
+            }
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/public/index.php"
+        }
+    ]
 }
