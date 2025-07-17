@@ -1,7 +1,7 @@
 <x-layout>
 {{-- Hero --}}
 <section class="bg-center bg-no-repeat pb-10" style="background-image: url('{{ asset('storage/image/hero-image-ecommerce.png') }}')">
-    <div class="px-4 mx-auto max-w-screen-xl place-items-start text-left pt-56">
+    <div class="px-4 mx-auto max-w-screen-xl place-items-start text-left pt-56 fade-hero">
         <div class="pr-24 pt-60 px-15">
             <h1 class="mb-4 text-4xl font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Marketplace</h1>
             <h1 class="mb-4 text-4xl font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">& Order</h1>

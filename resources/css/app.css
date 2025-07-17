@@ -24,6 +24,17 @@
   transform: translateY(0);
 }
 
+.fade-hero {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-hero.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
