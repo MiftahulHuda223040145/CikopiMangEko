@@ -22,12 +22,12 @@
         <div class="">
             <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold text-[#39312F] mb-5">Berita Terbaru</h1>
             <div class="mb-10">
-                <img class="rounded-4xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/cikopi-news3.png') }}" alt="">
+                <img class="rounded-4xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/cikopi-news3.png') }}" alt="cikopi-news">
                 <h3 class="lg:text-xl md-text-xl sm:text-base font-semibold pt-6">Cikopi Mang Eko AT Urban  Village 2025</h3>
                 <p class="text-justify py-2 lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Cikopi Mang Eko dipercaya sebagai objek penilitian oleh Mahasiswa Telkom University, dalam rangka pengembangan businees model UMKM.</p>
             </div>
             <div class="">
-                <img class="rounded-4xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/cikopi-news2.png') }}" alt="">
+                <img class="rounded-4xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/cikopi-news2.png') }}" alt="cikopi-news">
                 <h3 class="lg:text-xl md-text-xl sm:text-base font-semibold pt-6 lg:w-80 md:w-80 sm:w-auto">BANDUNG WEEK MARKET 2024</h3>
                 <p class="text-justify py-2 lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Cikopi Mang Eko  mengikuti event yang di buat oleh dinas perdagangan dan perindustrian Kota Bandung, yang dilaksanakan di Bali pada tanggal 7-12 mei 2024.</p>
             </div>

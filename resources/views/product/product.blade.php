@@ -15,7 +15,7 @@
 <div class="text-[#39312F] container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 font-lato fade-in-up">
     <div class="font-lato lg:gap-40 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col max-[640px]:flex-col place-items-start mx-auto max-w-screen-xl text-left py-3">
         <div class="">
-            <img class="w-90 rounded-3xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/green-bean.png') }}" alt="">
+            <img class="w-90 rounded-3xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/green-bean.png') }}" alt="green-bean">
             <div class="py-3">
                 <h2 class="font-bold lg:text-xl md-text-xl sm:text-base">Grean Bean</h2>
                 <p class="lg:w-45 md:w-45 sm:w-auto lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Rp. 50.000 - Rp. 90.000</p>  
@@ -34,7 +34,7 @@
             <p class="lg:w-150 md:w-auto my-5 text-justify lg:text-xl md-text-xl sm:text-base">Green Bean merupakan biji kopi yang di panggang atau sangrai, proses ini bertujuan untuk mengeluarkan aroma, dan roasted bean siap untuk digiling dan diseduh. Cikopi mang eko menyediakan roasted bean dari aceh hingga papua.</p>
         </div>
         <div class="">
-            <img class="w-90 rounded-3xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/foto-acehgayo.png') }}" alt="">
+            <img class="w-90 rounded-3xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/foto-acehgayo.png') }}" alt="foto-acehgayo">
             <div class="py-3">
                 <h2 class="font-bold lg:text-xl md-text-xl sm:text-base">Roasted Bean</h2>
                 <p class="lg:w-50 md:w-50 sm:w-auto lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Rp. 150.000 - Rp. 190.000</p>       
@@ -45,7 +45,7 @@
 <div class="text-[#39312F] container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 fade-in-up">
     <div class="font-lato lg:gap-40 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col max-[640px]:flex-col place-items-start mx-auto max-w-screen-xl text-left py-3">
         <div class="">
-            <img class="w-90 rounded-3xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/roasting-service.png') }}" alt="">
+            <img class="w-90 rounded-3xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/roasting-service.png') }}" alt="roasting-service">
             <div class="py-3">
                 <h2 class="font-bold lg:text-xl md-text-xl sm:text-base lg:w-45 md:w-45 sm:w-auto">Roasting Service</h2>
                 <p class="lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Rp. 25.000/Kg</p>       
@@ -65,7 +65,7 @@
         </div>
         <div class="place-items-end text-left">
             <div class="pr-5">
-                <img class="w-90 rounded-3xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/coffee-making-equipment.png') }}" alt="">
+                <img class="w-90 rounded-3xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/coffee-making-equipment.png') }}" alt="coffee-making-equipment">
                 <div class="py-3">
                     <h2 class="font-bold lg:text-xl md-text-xl sm:text-base">Coffee Making Equipment</h2>
                     <p class="lg:w-65 md:w-65 sm:w-auto lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Rp. 70.000 - Rp. 3.000.000</p>       
@@ -77,7 +77,7 @@
 <div class="text-[#39312F] container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 mt-15 mb-40 fade-in-up">
     <div class="font-lato lg:gap-40 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col max-[640px]:flex-col place-items-start mx-auto max-w-screen-xl text-left py-3">
         <div class="">
-            <img class="w-90 rounded-3xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/product-hampers.png') }}" alt="">
+            <img class="w-90 rounded-3xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/product-hampers.png') }}" alt="product-hampers">
             <div class="py-3">
                 <h2 class="font-bold lg:text-xl md-text-xl sm:text-base">Side Product</h2>
                 <p class="lg:w-45 md:w-45 sm:w-auto lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Rp. 55.000 - 70.000/L</p>       

@@ -14,7 +14,7 @@
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Store</h2>
                 <ul class="text-white font-medium">
                     <li class="mb-4 flex gap-4">
-                        <img class="h-[32px] pt-1" src="{{ asset('storage/image/location.png')}}" alt="">
+                        <img class="h-[32px] pt-1" src="{{ asset('storage/image/location.png')}}" alt="location-icon">
                         <a href="https://maps.app.goo.gl/zqsu35aAvGHirUYw8" class="hover:underline lg:w-60 md:w-auto lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs" target="_blank" rel="noopener noreferrer">Jl. Golf  Dalam No.2 Blok G, Cisaranten Bina Harapan, Kec Arcamanik, Kota Bandung, Jawa Barat 40294.</a>
                     </li>
                 </ul>
@@ -23,7 +23,7 @@
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
                 <ul class="text-white font-medium">
                     <li class="mb-4 flex gap-4 place-items-center">
-                        <img class="h-[32px] pt-1" src="{{ asset('storage/image/whatsapp.png')}}" alt="">
+                        <img class="h-[32px] pt-1" src="{{ asset('storage/image/whatsapp.png')}}" alt="logo-whatsapp">
                         <a href="https://api.whatsapp.com/send/?phone=6281350508811&text&type=phone_number&app_absent=0" class="hover:underline lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs" target="_blank" rel="noopener noreferrer">+62 813 - 5050 - 8811</a>
                     </li>
                 </ul>
@@ -32,7 +32,7 @@
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Social Media</h2>
                 <ul class="text-white font-medium">
                     <li class="mb-4 flex gap-4 place-items-center">
-                        <img class="h-[32px] pt-1" src="{{ asset('storage/image/instagram1.png')}}" alt="">
+                        <img class="h-[32px] pt-1" src="{{ asset('storage/image/instagram1.png')}}" alt="logo-instagram-white">
                         <a href="https://www.instagram.com/cikopimangeko?igsh=MWJlNTNmaHBoeHJ4dQ==" class="hover:underline lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs" target="_blank" rel="noopener noreferrer">@cikopimangeko</a>
                     </li>
                 </ul>
@@ -41,7 +41,7 @@
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Operational Hours</h2>
                 <ul class="text-white font-medium">
                     <li class="mb-4 flex gap-4">
-                        <img class="h-[32px] pt-1" src="{{ asset('storage/image/time.png')}}" alt="">
+                        <img class="h-[32px] pt-1" src="{{ asset('storage/image/time.png')}}" alt="time-icon">
                         <div class="grid grid-cols-1">
                             <p class="lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Senin - Minggu</p>
                             <p class="lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">10.00 - 18.00 WIB</p>
@@ -53,7 +53,7 @@
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Online Shop</h2>
                 <ul class="text-white font-medium">
                     <li class="mb-4 flex gap-4 place-items-center">
-                        <img class="h-[32px] pt-1" src="{{ asset('storage/image/tokopedia1.png')}}" alt="">
+                        <img class="h-[32px] pt-1" src="{{ asset('storage/image/tokopedia1.png')}}" alt="logo-tokopedia-white">
                         <a href="https://tk.tokopedia.com/ZSBm1JbXe/" class="hover:underline lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs" target="_blank" rel="noopener noreferrer">cikopimangeko</a>
                     </li>
                 </ul>

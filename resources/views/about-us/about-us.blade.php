@@ -19,28 +19,28 @@
     <div class="py-3 justify-center max-w-screen gap-8 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 max-[640px]:grid-cols-2 mb-25">
         <div class="">
             <div class="place-items-center">
-                <img class="rounded-full w-2xs transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/muchtar-koswara.png') }}" alt="">
+                <img class="rounded-full w-2xs transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/muchtar-koswara.png') }}" alt="muchtar-koswara">
             </div>
             <h2 class="font-bold lg:text-xl md-text-xl sm:text-base pt-10">Muchtar Koswara</h2>
             <p class="text-left lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Owner Cikopi Mang Eko</p>       
         </div>
         <div class="">
             <div class="place-items-center">
-                <img class="rounded-full w-2xs transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/dodi-setiadi.png') }}" alt="">
+                <img class="rounded-full w-2xs transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/dodi-setiadi.png') }}" alt="dodi-setiadi">
             </div>
             <h2 class="font-bold lg:text-xl md-text-xl sm:text-base pt-10">Dodi Setiadi</h2>
             <p class="text-left lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Store Manager</p>       
         </div>
         <div class="">
             <div class="place-items-center">
-                <img class="rounded-full w-2xs transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/novi-indriawan.png') }}" alt="">
+                <img class="rounded-full w-2xs transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/novi-indriawan.png') }}" alt="novi-indriawan">
             </div>
             <h2 class="font-bold lg:text-xl md-text-xl sm:text-base pt-10">Novi Indriawan</h2>
             <p class="text-left lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Production Manager</p>       
         </div>
         <div class="">
             <div class="place-items-center">
-                <img class="rounded-full w-2xs transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/bunga-utami.png') }}" alt="">
+                <img class="rounded-full w-2xs transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/bunga-utami.png') }}" alt="bunga-utami">
             </div>
             <h2 class="font-bold lg:text-xl md-text-xl sm:text-base pt-10">Bunga Utami</h2>
             <p class="text-left lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Sales and Marketing</p>       

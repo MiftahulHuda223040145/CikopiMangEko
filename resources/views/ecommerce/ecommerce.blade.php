@@ -15,27 +15,27 @@
 <div class="container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 fade-in-up my-20">
     <div class="max-w-full lg:mt-15 mb-35 grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 place-items-center lg:gap-30 md:gap-20 max-[640px]:gap-10 sm:gap-10">
         <div class="lg:h-130 md:h-auto max-w-sm bg-white rounded-3xl shadow-[0px_8px_15px_2px_rgba(0,0,0,0.25)] px-7 transform transition duration-500 ease-out hover:scale-105">
-            <img class="py-5" src="{{ asset('storage/image/instagram2.png') }}" alt="" />
-            <img class="rounded-3xl w-full " src="{{ asset('storage/image/ecommerce1.png') }}" alt="" />
+            <img class="py-5" src="{{ asset('storage/image/instagram2.png') }}" alt="logo-instagram-color" />
+            <img class="rounded-3xl w-full " src="{{ asset('storage/image/ecommerce1.png') }}" alt="instagram" />
             <div class="py-5">
                 <p class="text-[#39312F] my-5 font-lato lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Info lebih lanjut mengenai produk kunjungi sosial media instagram @cikopimangeko</p>
                 <div class="space-y-4 mb-5 my-10 sm:flex-row sm:justify-end sm:space-y-0">
                     <a href="https://www.instagram.com/cikopimangeko?igsh=MWJlNTNmaHBoeHJ4dQ==" class="inline-flex justify-end items-center py-3 px-5 font-lato font-bold lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs text-center text-[#FFFEF4] rounded-lg bg-[#39312F] hover:bg-[#1c1817] transition duration-500 ease-out hover:scale-105">
                         Lebih Lanjut
-                        <img class="ms-3" src="{{ asset('storage/image/arrow-white.png') }}" alt="">
+                        <img class="ms-3" src="{{ asset('storage/image/arrow-white.png') }}" alt="arrow-white">
                     </a>
                 </div>
             </div>
         </div>
         <div class="lg:h-130 md:h-auto max-w-sm bg-white rounded-3xl shadow-[0px_8px_15px_4px_rgba(0,0,0,0.25)] px-7 transform transition duration-500 ease-out hover:scale-105">
-            <img class="py-5" src="{{ asset('storage/image/tokopedia2.png') }}" alt="" />
-            <img class="rounded-3xl w-full" src="{{ asset('storage/image/ecommerce2.png') }}" alt="" />
+            <img class="py-5" src="{{ asset('storage/image/tokopedia2.png') }}" alt="logo-tokopedia-color" />
+            <img class="rounded-3xl w-full" src="{{ asset('storage/image/ecommerce2.png') }}" alt="tokopedia-store" />
             <div class="py-5">
                 <p class="text-[#39312F] my-5 text-justify w-full lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Temukan produk yang dibutuhkan di Tokopedia @cikopimangeko</p>
                 <div class="space-y-4 mb-5 my-10 sm:flex-row sm:justify-end sm:space-y-0">
                     <a href="https://tk.tokopedia.com/ZSBm1JbXe/" class="inline-flex justify-end items-center py-3 px-5 font-lato font-bold lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs text-center text-[#FFFEF4] rounded-lg bg-[#39312F] hover:bg-[#1c1817] transition duration-500 ease-out hover:scale-105">
                         Lebih Lanjut
-                        <img class="ms-3" src="{{ asset('storage/image/arrow-white.png') }}" alt="">
+                        <img class="ms-3" src="{{ asset('storage/image/arrow-white.png') }}" alt="arrow-white">
                     </a>
                 </div>
         </div>
