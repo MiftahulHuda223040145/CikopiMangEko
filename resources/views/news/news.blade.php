@@ -11,7 +11,7 @@
 </section>
 
 {{-- News --}}
-<div class="container max-w-screen my-15 font-lato fade-in-up">
+<div class="text-[#39312F] container max-w-screen mt-15 mb-40 font-lato fade-in-up">
     <div class="lg:px-25 md:px-25 sm:px-10 max-[640px]:px-10 lg:grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-8 justify-center">
         <div class="mb-8">
             <div class="h-70 rounded-4xl bg-cover bg-center transform transition duration-500 ease-out hover:scale-105" style="background-image: url('{{ asset('storage/image/cikopi-news1.png') }}')"></div>

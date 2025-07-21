@@ -12,9 +12,9 @@
 </section>
 
 {{-- About Our Team --}}
-<div class="container lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 max-w-screen font-lato fade-in-up">
+<div class="text-[#39312F] container lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 max-w-screen font-lato fade-in-up">
     <div class="font-lato max-w-screen-xl place-items-start text-left mt-15 mb-3">
-        <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold text-[#39312F]">About Our Team</h1>
+        <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold">About Our Team</h1>
     </div>
     <div class="py-3 justify-center max-w-screen gap-8 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 max-[640px]:grid-cols-2 mb-25">
         <div class="">
@@ -48,15 +48,15 @@
     </div>
 </div>
 
-<div class="container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-40 font-lato fade-in-up">
-    <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold text-[#39312F] mb-10">Visi & Misi</h1>
+<div class="text-[#39312F] container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-40 font-lato fade-in-up">
+    <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold mb-10">Visi & Misi</h1>
     <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-20">
         <div class="">
-            <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold text-[#39312F]">Visi</h1>
+            <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold">Visi</h1>
             <p class="my-5 lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Menjadi penyedia biji kopi premium dari seluruh kepulauan di Indonesia yang mengedepankan kualitas, keberlanjutan, dan kesejahteraan petani lokal, serta memberikan pengalaman kopi terbaik pada komsumen global.</p>
         </div>
         <div class="">
-            <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold text-[#39312F]">Misi</h1>
+            <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold">Misi</h1>
             <ol class="list-decimal list-inside my-5 lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">
                 <li class="pb-4">Memberikan edukasi kepada para penggiat kopi tentang proses pengolahan kopi yang baik dan benar.</li>
                 <li class="pb-4">Mempromosikan komoditas kopi yang berasal dari tiap daerah di Indonesia, khusunya di kota Bandung.</li>

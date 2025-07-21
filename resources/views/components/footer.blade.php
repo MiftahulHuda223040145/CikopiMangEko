@@ -8,9 +8,9 @@
             </a>
         </div>
     </div>
-    <div class="w-full max-w-screen-xl min-lg:pl-30 md:pl-0 sm:pl-10 py-8">
-        <div class="gap-x-15 gap-y-10 flex flex-wrap">
-            <div class="w-75 ">
+    <div class="font-lato w-full max-w-screen-xl min-lg:pl-30 md:pl-15 sm:pl-10 max-[640px]:pl-5 py-8">
+        <div class="gap-x-15 gap-y-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 sm:px-20 max-[640px]:px-5">
+            <div class=" ">
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Store</h2>
                 <ul class="text-white font-medium">
                     <li class="mb-4 flex gap-4">
@@ -19,7 +19,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="w-75">
+            <div class="">
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
                 <ul class="text-white font-medium">
                     <li class="mb-4 flex gap-4 place-items-center">
@@ -28,7 +28,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="w-75 ">
+            <div class=" ">
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Social Media</h2>
                 <ul class="text-white font-medium">
                     <li class="mb-4 flex gap-4 place-items-center">
@@ -37,7 +37,7 @@
                     </li>
                 </ul>
             </div> 
-            <div class="w-75 ">
+            <div class=" ">
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Operational Hours</h2>
                 <ul class="text-white font-medium">
                     <li class="mb-4 flex gap-4">
@@ -49,7 +49,7 @@
                     </li>
                 </ul>
             </div> 
-            <div class="w-75 ">
+            <div class=" ">
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Online Shop</h2>
                 <ul class="text-white font-medium">
                     <li class="mb-4 flex gap-4 place-items-center">

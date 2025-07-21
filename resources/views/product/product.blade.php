@@ -12,7 +12,7 @@
 </section>
 
 {{-- Main Content --}}
-<div class="container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 font-lato fade-in-up">
+<div class="text-[#39312F] container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 font-lato fade-in-up">
     <div class="font-lato lg:gap-40 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col max-[640px]:flex-col place-items-start mx-auto max-w-screen-xl text-left py-3">
         <div class="">
             <img class="w-90 rounded-3xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/green-bean.png') }}" alt="">
@@ -22,15 +22,15 @@
             </div>
         </div>
         <div class="">
-            <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold text-[#39312F]">Green Bean</h1>
+            <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold">Green Bean</h1>
             <p class="lg:w-170 md:w-auto my-5 text-justify lg:text-xl md-text-xl sm:text-base">Green Bean merupakan biji kopi mentah yang belum disangrai. Green Bean merupakah bahan utama dalam pembuatan kopi, dan kualitasnya menentukan cita rasa akhir kopi yang dihasilkan. Cikopi mang eko menyediakan green bean dari berbagai daerah atau gunung yang ada di Indonesia.</p>
         </div>
     </div>
 </div>
-<div class="container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 fade-in-up">
+<div class="text-[#39312F] container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 fade-in-up">
     <div class="font-lato lg:gap-40 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col-reverse max-[640px]:flex-col-reverse place-items-start mx-auto max-w-screen-xl text-left py-3">
         <div class="">
-            <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold text-[#39312F]">Roasted Bean</h1>
+            <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold">Roasted Bean</h1>
             <p class="lg:w-150 md:w-auto my-5 text-justify lg:text-xl md-text-xl sm:text-base">Green Bean merupakan biji kopi yang di panggang atau sangrai, proses ini bertujuan untuk mengeluarkan aroma, dan roasted bean siap untuk digiling dan diseduh. Cikopi mang eko menyediakan roasted bean dari aceh hingga papua.</p>
         </div>
         <div class="">
@@ -42,7 +42,7 @@
         </div>
     </div>
 </div>
-<div class="container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 fade-in-up">
+<div class="text-[#39312F] container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 fade-in-up">
     <div class="font-lato lg:gap-40 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col max-[640px]:flex-col place-items-start mx-auto max-w-screen-xl text-left py-3">
         <div class="">
             <img class="w-90 rounded-3xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/roasting-service.png') }}" alt="">
@@ -52,15 +52,15 @@
             </div>
         </div>
         <div class="">
-            <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold text-[#39312F]">Roasting Service</h1>
+            <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold">Roasting Service</h1>
             <p class="lg:w-140 md:w-auto my-5 lg:text-xl md-text-xl sm:text-base text-justify">Roasting Service merupakan jasa yang diberikan oleh cikopi mang eko terhadap konsumen. Adapun service lainnya, seperti jasa giling biji kopi, dan jasa mengajarkan menyeduh kopi secara gratis.</p>
         </div>
     </div>
 </div>
-<div class="container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 fade-in-up">
+<div class="text-[#39312F] container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 fade-in-up">
     <div class="font-lato lg:gap-40 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col-reverse max-[640px]:flex-col-reverse place-items-start mx-auto max-w-screen-xl text-left py-3">
         <div class="">
-            <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold text-[#39312F]">Coffee Making Equipment</h1>
+            <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold">Coffee Making Equipment</h1>
             <p class="lg:w-150 md:w-auto my-5 text-justify lg:text-xl md-text-xl sm:text-base">Cikopi mang eko menyediakan berbagai alat menyeduh kopi, baik untuk rumahan maupun profesional.</p>
         </div>
         <div class="place-items-end text-left">
@@ -74,7 +74,7 @@
         </div>
     </div>
 </div>
-<div class="container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 fade-in-up">
+<div class="text-[#39312F] container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 mt-15 mb-40 fade-in-up">
     <div class="font-lato lg:gap-40 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col max-[640px]:flex-col place-items-start mx-auto max-w-screen-xl text-left py-3">
         <div class="">
             <img class="w-90 rounded-3xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('storage/image/product-hampers.png') }}" alt="">
@@ -84,7 +84,7 @@
             </div>
         </div>
         <div class="">
-            <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold text-[#39312F]">Side Product</h1>
+            <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl font-bold">Side Product</h1>
             <p class="lg:w-150 md:w-auto my-5 text-justify lg:text-xl md-text-xl sm:text-base">Side product merupakan produk sekunder yang dijual pleh cikopi mang eko, seperti minumana Espresso Concentrate, dan Eskosu (kopi susu).</p>
         </div>
     </div>

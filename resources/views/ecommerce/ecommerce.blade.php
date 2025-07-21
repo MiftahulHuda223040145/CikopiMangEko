@@ -18,7 +18,7 @@
             <img class="py-5" src="{{ asset('storage/image/instagram2.png') }}" alt="" />
             <img class="rounded-3xl w-full " src="{{ asset('storage/image/ecommerce1.png') }}" alt="" />
             <div class="py-5">
-                <p class="my-5 font-lato lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Info lebih lanjut mengenai produk kunjungi sosial media instagram @cikopimangeko</p>
+                <p class="text-[#39312F] my-5 font-lato lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Info lebih lanjut mengenai produk kunjungi sosial media instagram @cikopimangeko</p>
                 <div class="space-y-4 mb-5 my-10 sm:flex-row sm:justify-end sm:space-y-0">
                     <a href="https://www.instagram.com/cikopimangeko?igsh=MWJlNTNmaHBoeHJ4dQ==" class="inline-flex justify-end items-center py-3 px-5 font-lato font-bold lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs text-center text-[#FFFEF4] rounded-lg bg-[#39312F] hover:bg-[#1c1817] transition duration-500 ease-out hover:scale-105">
                         Lebih Lanjut
@@ -31,7 +31,7 @@
             <img class="py-5" src="{{ asset('storage/image/tokopedia2.png') }}" alt="" />
             <img class="rounded-3xl w-full" src="{{ asset('storage/image/ecommerce2.png') }}" alt="" />
             <div class="py-5">
-                <p class="my-5 text-justify w-full lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Temukan produk yang dibutuhkan di Tokopedia @cikopimangeko</p>
+                <p class="text-[#39312F] my-5 text-justify w-full lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs">Temukan produk yang dibutuhkan di Tokopedia @cikopimangeko</p>
                 <div class="space-y-4 mb-5 my-10 sm:flex-row sm:justify-end sm:space-y-0">
                     <a href="https://tk.tokopedia.com/ZSBm1JbXe/" class="inline-flex justify-end items-center py-3 px-5 font-lato font-bold lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs text-center text-[#FFFEF4] rounded-lg bg-[#39312F] hover:bg-[#1c1817] transition duration-500 ease-out hover:scale-105">
                         Lebih Lanjut
