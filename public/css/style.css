@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "ppbold";
+    src: 
+        url('/fonts/ppbold.otf') format('opentype'),
+        ;
+}
+
+@theme {
+    --font-ppbold: 'ppbold', sans-serif;
+}

@@ -1,16 +1,9 @@
 @import 'tailwindcss';
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); */
 
-@font-face {
-    font-family: "ppbold";
-    src: 
-        url('/public/fonts/ppbold.otf') format('opentype'),
-        ;
-}
 
-@theme {
+/* @theme {
     --font-lato: 'Lato', sans-serif;
-    --font-ppbold: 'ppbold', sans-serif;
 }
 
 .fade-in-up {
@@ -33,7 +26,7 @@
 .fade-hero.show {
   opacity: 1;
   transform: translateY(0);
-}
+} */
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';

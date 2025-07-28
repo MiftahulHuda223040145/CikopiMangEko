@@ -1,8 +1,8 @@
 <nav class="nav font-lato lg:bg-transparent md:bg-transparent w-screen top-0 z-20 fixed transition-colors max-[767px]:bg-[#966727] duration-500">
     <div class="max-w-screen flex flex-wrap items-center justify-between min-lg:px-25 md:px-10 sm:px-5 max-[640px]:px-5 py-4">
         <a href="/" class="flex gap-2 items-center space-x-3 rtl:space-x-reverse">
-            <img src="{{ asset('storage/image/cikopilogo.png')}}" class="w-12" alt="Cikopi Mang Eko Logo" />
-            <span class="self-center lg:text-xl md-text-xl sm:text-base whitespace-nowrap dark:text-white">Cikopi Mang Eko</span>
+            <img src="{{ asset('./image/cikopilogo.png')}}" class="w-12" alt="Cikopi Mang Eko Logo" />
+            <span class="self-center lg:text-xl md-text-xl sm:text-base whitespace-nowrap dark:text-white lato-regular">Cikopi Mang Eko</span>
         </a>
         <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden" aria-controls="navbar-default" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
@@ -11,7 +11,7 @@
             </svg>
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-        <ul class="font-bold flex text-shadow-lg flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
+        <ul class="lato-bold flex text-shadow-lg flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
             <li>
             <a href="/" class="block py-2 px-3 rounded-sm md:bg-transparent md:p-0 {{ request()->is('/') ? 'text-[#fde0bd]' : 'text-white hover:text-[#fde0bd]'}}">Home</a>
             </li>
