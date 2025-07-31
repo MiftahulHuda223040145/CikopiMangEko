@@ -2,16 +2,16 @@
 @section('title', 'News')
 {{-- Hero --}}
 <section class="bg-center bg-no-repeat bg-cover min-h-[80vh] sm:min-h-[90vh] md:min-h-screen" style="background-image: url('{{ asset('image/hero-image-news.png') }}')">
-    <div class="px-4 max-w-screen place-items-start text-left pt-76 pb-10 fade-hero">
+    <div class="px-4 max-w-[1920px] mx-auto place-items-start text-left pt-76 pb-10 fade-hero">
         <div class="pt-90 lg:px-25 md:px-25 sm:px-10 max-[640px]:px-10">
-            <h1 class="mb-10 text-4xl font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl min-2xl:text-8xl hero-text">Cikopi Mang Eko News</h1>
+            <h1 class="mb-10 text-4xl font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl min-2xl:text-8xl hero-text">Cikopi News</h1>
             <p class="md mb-8 lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs min-2xl:text-3xl font-lato lato-regular text-white lato-regular">Berbagai berita tentang Cikopi Mang Eko.</p>
         </div>
     </div>
 </section>
 
 {{-- News --}}
-<div class="text-[#39312F] container max-w-screen mt-15 mb-40 font-lato fade-in-up">
+<div class="text-[#39312F] container max-w-[1920px] mx-auto mt-15 mb-40 font-lato fade-in-up">
     <div class="lg:px-25 md:px-25 sm:px-10 max-[640px]:px-10 lg:grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-8 justify-center">
         <div class="mb-8">
             <div class="min-2xl:w-full min-2xl:h-120 h-70 rounded-4xl bg-cover bg-center transform transition duration-500 ease-out hover:scale-105" style="background-image: url('{{ asset('image/cikopi-news1.png') }}')"></div>

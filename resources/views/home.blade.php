@@ -2,10 +2,10 @@
 @section('title', 'Home')
 {{-- Hero --}} 
 <section class="bg-center bg-no-repeat bg-cover min-h-[80vh] sm:min-h-[90vh] md:min-h-screen" style="background-image: url('{{ asset('image/hero-image-home.png') }}')">
-    <div class="px-4 max-w-screen place-items-end text-left py-55 fade-hero">
-        <div class="pr-24 pt-20">
-            <h1 class="mb-4 font-ppbold text-4xl tracking-tight leading-none text-white md:text-5xl lg:text-6xl hero-text min-2xl:text-9xl">Cikopi</h1>
-            <h1 class="mb-4 font-ppbold text-4xl tracking-tight leading-none text-white md:text-5xl lg:text-6xl hero-text min-2xl:text-9xl">Mang Eko</h1>
+    <div class="px-4 max-w-[1920px] mx-auto place-items-end text-left py-55 fade-hero">
+        <div class="pr-24 min-2xl:pr-15 pt-20">
+            <h1 class="mb-4 font-ppbold text-4xl tracking-tight leading-none text-white md:text-5xl lg:text-6xl hero-text min-2xl:text-8xl">Cikopi</h1>
+            <h1 class="mb-4 font-ppbold text-4xl tracking-tight leading-none text-white md:text-5xl lg:text-6xl hero-text min-2xl:text-8xl">Mang Eko</h1>
             <p class="mb-8 font-lato text-white lg:text-xl md-text-xl sm:text-base min-2xl:text-3xl lato-regular">Seduhan murni untuk jiwa yang berkembang</p>
             <div class="space-y-4 sm:flex-row sm:justify-end sm:space-y-0">
                 <a href="https://api.whatsapp.com/send/?phone=6281350508811&text&type=phone_number&app_absent=0" class="inline-flex justify-end items-center py-5 px-5 text-center text-[#39312F] rounded-lg bg-[#FEFEF4] hover:bg-[#dfdfd5] font-lato lato-bold lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs transition duration-500 ease-out hover:scale-105 min-2xl:text-2xl">
@@ -18,7 +18,7 @@
 </section>
 
 {{-- About Us --}}
-<div class="font-lato lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 max-w-screen place-items-start text-left py-15 fade-in-up text-[#39312F]">
+<div class="font-lato lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 place-items-start text-left py-15 fade-in-up text-[#39312F] max-w-[1920px] mx-auto">
     <div class="">
         <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl min-2xl:text-6xl lato-bold">ABOUT US</h1>
         <p class="min-2xl:w-170 lg:w-140 md:w-140 sm:w-auto my-5 text-justify lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs min-2xl:text-2xl lato-regular">Cikopi mang eko merupakan tempat penyedia biji kopi, jasa roasting, dan distributor biji kopi. Cikopi mang eko ini berdiri pada tahun 2016 oleh Muchtar koswara di ciwastra dan pindah pada tahun 2018 ke kota Bandung tepatnya di Jl. Golf Dalam No.2 Blok G, Cisaranten Bina Harapan, Kec Arcamanik, Kota Bandung, Jawa Barat 40294.</p>
@@ -32,11 +32,11 @@
 </div>
 
 {{-- Product --}}
-<div class="font-lato lg:gap-20 md:gap-20 max-[640px]:gap-10 sm:gap-10 justify-center place-items-start grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 max-w-screen text-left py-15 my-10 lg:px-30 md:px-10 sm:px-10 max-[640px]:px-10 fade-in-up">
-    <div class="">
+<div class="font-lato lg:gap-20 md:gap-20 max-[640px]:gap-10 sm:gap-10 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 max-w-[1920px] text-left py-15 my-10 lg:px-30 md:px-10 sm:px-10 max-[640px]:px-10 mx-auto fade-in-up">
+    <div class="place-items-center">
         <img class="min-2xl:w-[600px] w-auto rounded-3xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('image/foto-acehgayo.png') }}" alt="foto-acehgayo">
     </div>
-    <div class="text-[#39312F]">
+    <div class="text-[#39312F] place-items-start">
         <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl min-2xl:text-6xl lato-bold">PRODUCT</h1>
         <p class="my-5 lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs min-2xl:text-2xl lato-regular">Cikopi mang eko menjual green bean, roasted bean, jasa roasting dan menggiling, alat-alat kopi, dan kopi susu yang siap minum.</p>
         <div class="space-y-4 sm:flex-row sm:justify-end sm:space-y-0 transform">
@@ -49,8 +49,8 @@
 </div>
 
 {{-- Ecommerce --}}
-<div class="container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 fade-in-up">
-    <div class="font-lato max-w-screen place-items-start text-left py-3">
+<div class="container max-w-[1920px] lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 mx-auto fade-in-up">
+    <div class="font-lato max-w-[1920px] place-items-start text-left py-3">
         <div class="text-[#39312F]">
             <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl min-2xl:text-6xl lato-bold">ECOMMERCE</h1>
             <p class="min-2xl:text-2xl lg:w-140 md:w-auto my-5 lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs lato-regular">Buat pesanan anda sekarang melalui Instagram dan Tokopedia untuk Luar kota dan dalam kota.</p>
@@ -86,7 +86,7 @@
 </div>
 
 {{-- News --}}
-<div class="container max-w-screen mb-40 fade-in-up">
+<div class="container max-w-[1920px] mb-40 mx-auto fade-in-up">
     <div class="font-lato place-items-start text-left mt-15">
         <div class="text-[#39312F]">
             <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl min-2xl:text-6xl lato-bold">NEWS</h1>

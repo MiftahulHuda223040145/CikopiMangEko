@@ -2,18 +2,18 @@
 @section('title', 'Product')
 {{-- Hero --}}
 <section class="bg-center bg-no-repeat bg-cover min-h-[80vh] sm:min-h-[90vh] md:min-h-screen" style="background-image: url('{{ asset('image/hero-image-product.png') }}')">
-    <div class="px-4 max-w-screen place-items-start text-left pt-56 pb-30 fade-hero">
+    <div class="px-4 place-items-start text-left pt-56 pb-30 max-w-[1920px] mx-auto fade-hero">
         <div class="pt-40 lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10">
-            <h1 class="mb-4 font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl hero-text min-2xl:text-9xl text-4xl">Cikopi</h1>
-            <h1 class="mb-4 font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl hero-text min-2xl:text-9xl text-4xl">Mang Eko</h1>
+            <h1 class="mb-4 font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl hero-text min-2xl:text-8xl text-4xl">Cikopi</h1>
+            <h1 class="mb-4 font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl hero-text min-2xl:text-8xl text-4xl">Product</h1>
             <p class="min-2xl:w-130 lg:w-80 md:w-80 sm:w-auto mb-8 lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs font-lato lato-regular text-white min-2xl:text-3xl">Cikopi mang eko merupakan tempat penyedia biji  kopi, jasa roasting, dan  distributor biji kopi. </p>
         </div>
     </div>
 </section>
 
 {{-- Main Content --}}
-<div class="text-[#39312F] container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 font-lato fade-in-up place-items-center justify-center">
-    <div class="font-lato lg:gap-40 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col max-[640px]:flex-col place-items-start max-w-screen text-left py-3">
+<div class="text-[#39312F] container max-w-[1920px] mx-auto lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 font-lato fade-in-up place-items-center justify-center">
+    <div class="font-lato lg:gap-40 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col max-[640px]:flex-col place-items-start text-left py-3">
         <div class="">
             <img class="min-2xl:w-100 w-90 rounded-3xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('image/green-bean.png') }}" alt="green-bean">
             <div class="py-3">
@@ -27,8 +27,8 @@
         </div>
     </div>
 </div>
-<div class="text-[#39312F] container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 fade-in-up place-items-center justify-center">
-    <div class="font-lato lg:gap-40 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col-reverse max-[640px]:flex-col-reverse place-items-start max-w-screen text-left py-3">
+<div class="text-[#39312F] container max-w-[1920px] mx-auto lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 fade-in-up place-items-center justify-center">
+    <div class="font-lato lg:gap-60 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col-reverse max-[640px]:flex-col-reverse place-items-start text-left py-3">
         <div class="">
             <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl lato-bold">Roasted Bean</h1>
             <p class="lg:w-150 md:w-auto my-5 text-justify lg:text-xl min-2xl:text-3xl md-text-xl sm:text-base lato-regular">Green Bean merupakan biji kopi yang di panggang atau sangrai, proses ini bertujuan untuk mengeluarkan aroma, dan roasted bean siap untuk digiling dan diseduh. Cikopi mang eko menyediakan roasted bean dari aceh hingga papua.</p>
@@ -42,8 +42,8 @@
         </div>
     </div>
 </div>
-<div class="text-[#39312F] container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 fade-in-up place-items-center justify-center">
-    <div class="font-lato lg:gap-40 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col max-[640px]:flex-col place-items-start max-w-screen text-left py-3">
+<div class="text-[#39312F] container max-w-[1920px] mx-auto lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 fade-in-up place-items-center justify-center">
+    <div class="font-lato lg:gap-55 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col max-[640px]:flex-col place-items-start text-left py-3">
         <div class="">
             <img class="min-2xl:w-100 w-90 rounded-3xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('image/roasting-service.png') }}" alt="roasting-service">
             <div class="py-3">
@@ -57,8 +57,8 @@
         </div>
     </div>
 </div>
-<div class="text-[#39312F] container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 fade-in-up place-items-center justify-center">
-    <div class="font-lato lg:gap-40 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col-reverse max-[640px]:flex-col-reverse place-items-start max-w-screen text-left py-3">
+<div class="text-[#39312F] container max-w-[1920px] mx-auto lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 my-15 fade-in-up place-items-center justify-center">
+    <div class="font-lato lg:gap-50 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col-reverse max-[640px]:flex-col-reverse place-items-start text-left py-3">
         <div class="">
             <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl lato-bold">Coffee Making Equipment</h1>
             <p class="lg:w-150 md:w-auto my-5 text-justify lg:text-xl min-2xl:text-3xl md-text-xl sm:text-base lato-regular">Cikopi mang eko menyediakan berbagai alat menyeduh kopi, baik untuk rumahan maupun profesional.</p>
@@ -74,8 +74,8 @@
         </div>
     </div>
 </div>
-<div class="text-[#39312F] container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 mt-15 mb-40 fade-in-up place-items-center justify-center">
-    <div class="font-lato lg:gap-40 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col max-[640px]:flex-col place-items-start max-w-screen text-left py-3">
+<div class="text-[#39312F] container max-w-[1920px] mx-auto lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 mt-15 mb-40 fade-in-up place-items-center justify-center">
+    <div class="font-lato lg:gap-55 md:gap-10 sm:gap-10 max-[640px]:gap-10 justify-center flex lg:flex-row md:flex-row sm:flex-col max-[640px]:flex-col place-items-start text-left py-3">
         <div class="">
             <img class="min-2xl:w-100 w-90 rounded-3xl transform transition duration-500 ease-out hover:scale-105" src="{{ asset('image/product-hampers.png') }}" alt="product-hampers">
             <div class="py-3">
@@ -85,7 +85,7 @@
         </div>
         <div class="">
             <h1 class="lg:text-4xl md:text-4xl sm:text-2xl max-[640px]:text-2xl lato-bold">Side Product</h1>
-            <p class="lg:w-150 md:w-auto my-5 text-justify lg:text-xl min-2xl:text-3xl md-text-xl sm:text-base lato-regular">Side product merupakan produk sekunder yang dijual pleh cikopi mang eko, seperti minumana Espresso Concentrate, dan Eskosu (kopi susu).</p>
+            <p class="lg:w-150 md:w-auto my-5 text-justify lg:text-xl min-2xl:text-3xl md-text-xl sm:text-base lato-regular">Side product merupakan produk sekunder yang dijual oleh cikopi mang eko, seperti minuman Espresso Concentrate, dan Eskosu (kopi susu).</p>
         </div>
     </div>
 </div>

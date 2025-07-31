@@ -2,17 +2,17 @@
 @section('title', 'Ecommerce')
 {{-- Hero --}}
 <section class="bg-center bg-no-repeat bg-cover min-h-[80vh] sm:min-h-[90vh] md:min-h-screen" style="background-image: url('{{ asset('image/hero-image-ecommerce.png') }}')">
-    <div class="px-4 max-w-screen place-items-start text-left pt-76 pb-10 fade-hero">
+    <div class="px-4 max-w-[1920px] mx-auto place-items-start text-left pt-76 pb-10 fade-hero">
         <div class="pt-60 lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10">
-            <h1 class="mb-4 font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl hero-text min-2xl:text-9xl text-4xl">Marketplace</h1>
-            <h1 class="mb-4 font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl hero-text min-2xl:text-9xl text-4xl">& Order</h1>
-            <p class="min-2xl:w-150 lg:w-100 md:w-100 sm:w-auto mb-8 lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs lato-regular font-lato text-white min-2xl:text-3xl">Buat pesanan anda sekarang melalui Tokopedia dan Whatsapp untuk Luar kota dan dalam kota.</p>
+            <h1 class="mb-4 font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl hero-text min-2xl:text-8xl text-4xl">Marketplace</h1>
+            <h1 class="mb-4 font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl hero-text min-2xl:text-8xl text-4xl">& Order</h1>
+            <p class="min-2xl:w-150 lg:w-100 md:w-100 sm:w-auto mb-8 lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs lato-regular font-lato text-white min-2xl:text-3xl">Buat pesanan anda sekarang melalui Instagram dan Tokopedia untuk Luar kota dan dalam kota.</p>
         </div>
     </div>
 </section>
 
 {{-- Card --}}
-<div class="container max-w-screen lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 fade-in-up my-20">
+<div class="container max-w-[1920px] mx-auto lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10 fade-in-up my-20">
     <div class="max-w-full lg:mt-15 mb-35 grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 place-items-center lg:gap-30 md:gap-20 max-[640px]:gap-10 sm:gap-10">
         <div class="min-2xl:h-160 lg:h-130 md:h-auto min-2xl:max-w-lg max-w-sm bg-white rounded-3xl shadow-[0px_8px_15px_2px_rgba(0,0,0,0.25)] px-7 transform transition duration-500 ease-out hover:scale-105">
             <img class="py-5" src="{{ asset('image/instagram2.png') }}" alt="logo-instagram-color" />

@@ -13,8 +13,14 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <main>
-        <x-navbar></x-navbar>
+    <div id="loading-screen" class="font-ppbold fixed inset-0 z-50 flex items-center h-screen justify-center bg-[#966727] transition-opacity duration-700">
+        <div class="flex flex-col items-center space-y-4 mx-auto px-5">
+            <div class="w-16 h-16 border-4 border-t-white border-b-white border-l-transparent border-r-transparent rounded-full animate-spin"></div>
+            <p class="text-white md:text-5xl lg:text-6xl sm:text-base font-ppbold animate-pulse">Cikopi Mang Eko</p>
+        </div>
+    </div>
+    <x-navbar></x-navbar>
+    <main class="">
         {{$slot}}
     </main>
     <x-footer></x-footer>
@@ -97,34 +103,37 @@
             .fade-hero.show {
                 opacity: 1;
                 transform: translateY(0);
+            }
+
+            .navbar-animate {
+                opacity: 0;
+                transform: scale(1.5);
+                transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+            }
+
+            .navbar-animate.show {
+                opacity: 1;
+                transform: scale(1);
+            }
+                
+            #loading-screen {
+                font-family: 'ppbold', sans-serif;
+            }
+                
+            img[src*="cikopilogo"] {
+                max-width: 80px;
             }`
-            // `.font-Lato {
-            //     font-family: 'Lato', sans-serif;
-            // }`,
-
-            // `.fade-in-up {
-            // opacity: 0;
-            //     transform: translateY(20px);
-            //     transition: opacity 1s ease-out, transform 1s ease-out;
-            // }`,
-
-            // `.fade-in-up.show {
-            //     opacity: 1;
-            //     transform: translateY(0);
-            // }`,
-
-            // `.fade-hero {
-            //     opacity: 0;
-            //     transform: translateY(20px);
-            //     transition: opacity 1s ease-out, transform 1s ease-out;
-            // }`,
-
-            // `.fade-hero.show {
-            //     opacity: 1;
-            //     transform: translateY(0);
-            // }`
         ;
         document.head.appendChild(style);
+        window.addEventListener('load', function () {
+        const loadingScreen = document.getElementById('loading-screen');
+        if (loadingScreen) {
+            loadingScreen.classList.add('opacity-0');
+            setTimeout(() => {
+                loadingScreen.style.display = 'none';
+            }, 700);
+        }
+        });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
