@@ -6,7 +6,7 @@
         <div class="pt-40 lg:px-25 md:px-10 sm:px-10 max-[640px]:px-10">
             <h1 class="mb-4 font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl hero-text min-2xl:text-8xl text-4xl">Cikopi</h1>
             <h1 class="mb-4 font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl hero-text min-2xl:text-8xl text-4xl">Product</h1>
-            <p class="min-2xl:w-130 lg:w-80 md:w-80 sm:w-auto mb-8 lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs font-lato lato-regular text-white min-2xl:text-3xl">Cikopi mang eko merupakan tempat penyedia biji  kopi, jasa roasting, dan  distributor biji kopi. </p>
+            <p class="min-2xl:w-130 lg:w-80 md:w-80 sm:w-auto mb-8 lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs font-lato lato-regular text-white min-2xl:text-3xl">Cikopi mang eko merupakan tempat penyedia biji  kopi, jasa roasting, dan distributor biji kopi.</p>
         </div>
     </div>
 </section>

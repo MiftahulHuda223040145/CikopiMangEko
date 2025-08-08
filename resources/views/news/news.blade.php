@@ -5,7 +5,7 @@
     <div class="px-4 max-w-[1920px] mx-auto place-items-start text-left pt-76 pb-10 fade-hero">
         <div class="pt-90 lg:px-25 md:px-25 sm:px-10 max-[640px]:px-10">
             <h1 class="mb-10 text-4xl font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl min-2xl:text-8xl hero-text">Cikopi News</h1>
-            <p class="md mb-8 lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs min-2xl:text-3xl font-lato lato-regular text-white lato-regular">Berbagai berita tentang Cikopi Mang Eko.</p>
+            <p class="md mb-8 lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs min-2xl:text-3xl font-lato lato-regular text-white lato-regular">Sebuah berita dan cerita dari secangkir kopi.</p>
         </div>
     </div>
 </section>

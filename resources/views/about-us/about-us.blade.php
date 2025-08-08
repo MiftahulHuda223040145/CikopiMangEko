@@ -5,7 +5,7 @@
     <div class="px-4 place-items-start text-left pt-56 pb-10 min-h-[80vh] sm:min-h-[90vh] md:min-h-screen fade-hero lg:backdrop-brightness-100 md:backdrop-brightness-50 sm:backdrop-brightness-50 max-[640px]:backdrop-brightness-50 max-w-[1920px] mx-auto">
         <div class="pt-60 lg:pl-15 md:pl-15 sm:px-10 max-[640px]:px-10">
             <h1 class="mb-4 font-ppbold tracking-tight leading-none text-white md:text-5xl lg:text-6xl min-2xl:text-8xl hero-text text-4xl">About Us</h1>
-            <p class="min-2xl:w-130 lg:w-80 md:w-80 sm:w-auto mb-8 lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs font-lato text-white lato-regular min-2xl:text-3xl">Cikopi mang eko ini berdiri pada tahun 2016 oleh Muchtar koswara</p>
+            <p class="min-2xl:w-130 lg:w-80 md:w-80 sm:w-auto mb-8 lg:text-base md:text-sm sm:text-sm max-[640px]:text-xs font-lato text-white lato-regular min-2xl:text-3xl">Perpaduan cita rasa, yang membangun kepercayaan.</p>
         </div>
     </div>
 </section>
